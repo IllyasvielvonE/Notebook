@@ -2,7 +2,7 @@
 
 ## Overview
 
-​		大多数情况下，文件路径都使用用 **斜杠 /** 表示层次关系，而使用 **反斜杠 \ ** 作为转义符。
+​		大多数情况下，文件路径都使用用 **斜杠 /** 表示层次关系，而使用 **反斜杠 \\** 作为转义符。
 
 
 
@@ -10,9 +10,9 @@
 
 ### **特殊情况**：
 
-- Windows 系统中使用 **反斜杠 \ ** 于文件路径中，例如： `T:\SteamLibrary\steamapps\common\Mirror 2 Project X`
+- Windows 系统中使用 **反斜杠 \\** 于文件路径中，例如： `T:\SteamLibrary\steamapps\common\Mirror 2 Project X`
 
-- Markdown 中，插入图片使用 **反斜杠 \ ** 表示路径，例如： `![](.\example_image.png)`
+- Markdown 中，插入图片可以使用 **反斜杠 \\** 表示路径( / 也行)，例如： `![](.\example_image.png)`
 
 > 值得一提的是，为了使.md文件在不同电脑上能够顺利显示插入的图片，一般使用相对路径使其更具通用性：
 >
